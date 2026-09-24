@@ -1,0 +1,43 @@
+.splash { min-height: 100%; display: flex; flex-direction: column; }
+
+.splash__nav {
+  padding: 10px 20px;
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.splash__brand { font-weight: 700; font-size: 14px; }
+
+.splash__content { max-width: 640px; margin: 0 auto; padding: 56px 24px 96px; }
+
+.splash__badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-accent);
+  background: var(--color-accent-soft);
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+
+.splash__content h1 { font-size: 2rem; margin: 14px 0 4px; }
+.splash__tag { color: var(--color-text-secondary); font-weight: 600; margin: 0 0 24px; }
+.splash__content p { line-height: 1.6; }
+.splash__area { color: var(--color-text-secondary); font-size: 0.9rem; }
+.splash__note { color: var(--color-text-faint); font-size: 0.9rem; margin-top: 32px; }
+
+.splash__uses { list-style: none; padding: 0; margin: 24px 0; display: grid; gap: 12px; }
+.splash__uses li {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 12px 14px;
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  background: var(--color-surface);
+  line-height: 1.5;
+}
+.splash__uses strong { font-size: 0.95rem; }
+.splash__uses span { color: var(--color-text-secondary); font-size: 0.92rem; }
